@@ -60,6 +60,7 @@ class Tetris extends React.Component<TetrisProps, TetrisState> {
       tiles: [
         // 7 tiles
         // Each tile can be rotated 4 times (x/y coordinates)
+        //These are the 4 rotation posibilities of each.
         [
           // The default square
           [[0, 0], [0, 0], [0, 0], [0, 0]],
